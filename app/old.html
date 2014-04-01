@@ -12,13 +12,41 @@
         <link rel="stylesheet" type="text/css" href="css/coffeehouse.min.css">
     </head>
     <body>
-        <div class="frame">
+        <nav class="navbar frame navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-text frame-title">
+                    <div class="dropdown">
+                        <strong data-toggle="dropdown">#pupskuchen: </strong>
+                        <ul class="dropdown-menu" role="menu">
+                            <div class="btn-group btn-group-xs">
+                                <button type="button" class="btn btn-default active" data-toggle="button">T</button>
+                                <button type="button" class="btn btn-default active" data-toggle="button">N</button>
+                                <button type="button" class="btn btn-default active" data-toggle="button">S</button>
+                                <button type="button" class="btn btn-default" data-toggle="button">I</button>
+                                <button type="button" class="btn btn-default active" data-toggle="button">P</button>
+                                <button type="button" class="btn btn-default" data-toggle="button">M</button>
+                                <button type="button" class="btn btn-default" data-toggle="button">B</button>
+                                <button type="button" class="btn btn-default" data-toggle="button">K</button>
+                                <button type="button" class="btn btn-default" data-toggle="button">L</button>
+                            </div>
+                        </ul>
+                    </div>
+                    Komm mit mir ins Abenteuerland | Welcome to /b/ | http://i.imgur.com/civQQne.gif |
+                </div>
+                <ul class="nav navbar-nav navbar-right frame-controls">
+                    <li class="minimize"><a rel="tooltip" data-placement="bottom" title="Minimize"><i class="fa fa-minus"></i></a></li>
+                    <li class="maximize"><a rel="tooltip" data-placement="bottom" title="Maximize"><i class="fa fa-arrows-alt"></i></a></li>
+                    <li class="exit"><a rel="tooltip" data-placement="bottom" title="Close"><i class="fa fa-times"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper frame">
             <div class="controls">
                 <ul class="nav nav-pills nav-justified">
-                    <li><a rel="tooltip" data-placement="bottom" title="Coffehouse"><i class="fa fa-coffee"></i></a></li>
-                    <li><a rel="tooltip" data-placement="bottom" title="Settings"><i class="fa fa-cogs"></i></a></li>
-                    <li><a rel="tooltip" data-placement="bottom" title="Plugins"><i class="fa fa-flask"></i></a></li>
-                    <li><a rel="tooltip" data-placement="bottom" title="Help"><i class="fa fa-h-square"></i></a></li>
+                    <li><a rel="tooltip" data-placement="top" title="Preferences"><i class="fa fa-cog"></i></a></li>
+                    <li><a rel="tooltip" data-placement="top" title="Hide Channel switcher"><i class="fa fa-bars"></i></a></li>
+                    <li><a rel="tooltip" data-placement="top" title="Hide Userlist"><i class="fa fa-users"></i></a></li>
+                    <li><a rel="tooltip" data-placement="top" title="Edit whatever"><i class="fa fa-pencil"></i></a></li>
                 </ul>
             </div>
             <div class="channel-switch">
@@ -35,7 +63,29 @@
                 </ul>
             </div>
             <div class="channel">
-                <div class="channel-topic"><div class="channel-name">#pupskuchen</div> sa-mp.de IRC-Channel | http://bit.ly/1aCzfsc | No Autorejoin! | penis*penis=penis² | http://i.imgur.com/0jH8ntS.gif | Hier könnte es sich um Eisen handeln. Machen wir die Magnetprobe. | http://bit.ly/14xdSSx | #</div>
+                <div class="channel-user">
+                    <ul class="nav">
+                        <li class="nop"><a href="#">KeratBot</a></li>
+                        <li class="qop away"><a href="#">pupskuchen</a></li>
+                        <li class="sop"><a href="#">Coley</a></li>
+                        <li class="op"><a href="#">Klemmlampe</a></li>
+                        <li class="hop"><a href="#">Ares</a></li>
+                        <li class="vop away"><a href="#">benvei</a></li>
+                        <li class="away"><a href="#">cock</a></li>
+                        <li><a href="#">dan</a></li>
+                        <li><a href="#">Ditti</a></li>
+                        <li><a href="#">FapBot</a></li>
+                        <li><a href="#">GLaDOS</a></li>
+                        <li><a href="#">hdrv</a></li>
+                        <li><a href="#">Joshua</a></li>
+                        <li><a href="#">Krystal</a></li>
+                        <li><a href="#">maggin</a></li>
+                        <li><a href="#">SSL</a></li>
+                        <li><a href="#">Stats</a></li>
+                        <li><a href="#">SteveJobs</a></li>
+                        <li><a href="#">TokeBot</a></li>
+                    </ul>
+                </div>
                 <div class="channel-messages-wrapper">
                     <div class="channel-messages">
                         <div class="message"><div class="time">20:35:17</div><div class="user">Ditti</div><div class="content">ah, moment</div></div>
@@ -91,30 +141,14 @@
                         <div class="message"><div class="time">20:52:17</div><div class="user">dan</div><div class="content">maggin: jo eh...</div></div>
                     </div>
                 </div>
-                <div class="channel-user">
-                    <ul class="nav">
-                        <li class="nop"><a href="#">KeratBot</a></li>
-                        <li class="qop away"><a href="#">pupskuchen</a></li>
-                        <li class="sop"><a href="#">Coley</a></li>
-                        <li class="op"><a href="#">Klemmlampe</a></li>
-                        <li class="hop"><a href="#">Ares</a></li>
-                        <li class="vop away"><a href="#">benvei</a></li>
-                        <li class="away"><a href="#">cock</a></li>
-                        <li><a href="#">dan</a></li>
-                        <li><a href="#">Ditti</a></li>
-                        <li><a href="#">FapBot</a></li>
-                        <li><a href="#">GLaDOS</a></li>
-                        <li><a href="#">hdrv</a></li>
-                        <li><a href="#">Joshua</a></li>
-                        <li><a href="#">Krystal</a></li>
-                        <li class="me"><a href="#">maggin</a></li>
-                        <li><a href="#">SSL</a></li>
-                        <li><a href="#">Stats</a></li>
-                        <li><a href="#">SteveJobs</a></li>
-                        <li><a href="#">TokeBot</a></li>
+                <nav class="navbar navbar-fixed-bottom channel-nav" role="navigation">
+                    <ul class="nav navbar-nav navbar-left channel-controls">
+                        <li><a rel="tooltip" data-placement="top" title="Preferences"><i class="fa fa-cog"></i></a></li>
+                        <li><a rel="tooltip" data-placement="top" title="Show/Hide Channellist"><i class="fa fa-list"></i></a></li>
+                        <li><a rel="tooltip" data-placement="top" title="Show/Hide Userlist"><i class="fa fa-users"></i></a></li>
                     </ul>
-                </div>
-                <input type="text" class="form-control channel-input" placeholder="Send Message ...">
+                    <input type="text" class="form-control channel-input" placeholder="Send Message ...">
+                </nav>
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>

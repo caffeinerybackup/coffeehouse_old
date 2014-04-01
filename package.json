@@ -5,7 +5,24 @@
   "private": true,
   "main": "app/index.html",
   "js-flags": "--harmony",
+  "single-instance": true,
+  "window": {
+    "title": "#coffeehouse",
+    "icon": "assets/img/icons/128.png",
+    "toolbar": false,
+    "frame": true,
+    "position": "center",
+    "resizable": true,
+    "width": 1024,
+    "height": 600,
+    "min_width": 1024,
+    "min_height": 100,
+    "show": true
+  },
   "dependencies": {},
+  "scripts": {
+    "test": "D:\\node-webkit-binary\\win32\\nw.exe --enable-logging ."
+  },
   "devDependencies": {
     "grunt": "^0.4.4",
     "grunt-contrib-less": "^0.11.0",
